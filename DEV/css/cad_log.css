@@ -1,0 +1,38 @@
+.esquerda{
+    max-width: 40em;
+    float: left;
+    margin: 3em 3em;
+    background-color: rgb(255, 255, 255);
+    padding: 3em 3em;
+    border-radius: 1em;
+    box-shadow: 0.2em 0.2em 0.2em rgb(175, 173, 173);
+}
+
+.centro{
+    max-width: 70em;
+    margin: 3em 3em;
+    background-color: rgb(255, 255, 255);
+    padding: 3em 3em;
+    border-radius: 1em;
+    box-shadow: 0.2em 0.2em 0.2em rgb(175, 173, 173);
+}
+
+form input[type="submit"]{
+    color: #fff;
+    background-color: #006bbe;
+    padding: 0.5em;
+    border: none;
+    border-radius: 0.2em;
+    font: bold 1em arial;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover{
+box-shadow: 0.1em 0.1em 0.1em #bbb;
+}
+
+form input[type="submit"]:active{
+    box-shadow: 0.1em 0.1em 0.1em #bbb;
+    color: #006bbe;
+    background-color: #fff;
+    }

@@ -1,0 +1,111 @@
+section#conteudo{
+    margin-top: 3em;
+    max-width: 70em;  
+    padding: 2em; 
+}
+
+table{   
+    cursor: pointer;
+    background-color: rgb(240, 248, 255);
+    box-shadow: 0.08em 0.08em 0.2em #1482d68f;
+    color: #1482d6;
+    font: bold 1em arial;
+    text-align: center;
+    border-radius: 1rem;
+    margin: 1em auto 0em auto;
+    padding: 2em;
+    width: 95%;
+    transition: 0.5s;
+}
+
+table:hover{
+    background-color: #d6edff80;
+}
+
+div.img img{
+    border-radius: 1em;
+    transition: 1s;
+    max-width: 12em;
+    max-height: 6.3125em;
+}
+
+.img_esquerda{
+    width: 30%;
+}
+.img_direita{
+    width: 70%;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+a div.additem{
+    margin-left: auto;
+    padding: 0.3em;
+    border-radius: 1em;
+    color: #fff;
+    background-color: #1482d6;
+    transition: 0.4s;
+}
+
+a div.additem:hover{
+    background-color: #09538b;
+}
+
+a div.retitem{
+    margin-right: auto;
+    padding: 0.3em;
+    border-radius: 1em;
+    color: #fff;
+    background-color: #d63b14;
+    transition: 0.4s;
+}
+
+a div.retitem:hover{
+    background-color: #8b2709;
+}
+
+a div.removeitem{
+    margin: auto;
+    padding: 0.3em;
+    border-radius: 1em;
+    color: #fff;
+    background-color: #d60505;
+    transition: 0.4s;
+}
+
+a div.removeitem:hover{
+    background-color: #790404;
+}
+
+button{
+    float: left;
+    padding: 1em;
+    border-radius: 0.3em;
+    border: none;
+    font: bold 1em arial;
+    margin: 0.4em auto ;
+    color: #fff;
+    display: flex;   
+}
+
+.cc{
+    background-color: rgb(11, 76, 173);
+}
+
+.fn{
+    background-color: rgb(11, 173, 60);
+}
+
+.btn{
+    margin-top: 3em;
+    margin-right: 2em;
+    padding: 1em;
+}
+
+nav a button{
+    margin-top: -1.5em;  
+    margin-left: 2em;
+}

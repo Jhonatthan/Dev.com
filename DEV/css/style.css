@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1482d6;
+    max-width: 87.5em;
+    padding: 0 4%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.container{
+    max-width: 70em;
+    margin: 1em auto 1em auto;
+    background-color: rgb(228, 243, 255);
+    box-shadow: 0.5em 0.5em 0.5em rgba(6, 84, 136, 0.479);
+    border-radius: 0.5em;
+    justify-content: space-between;
+}
+
+nav.topo{
+    display: flex;
+    align-items: center;
+    background-color: #006bbe;
+    border-radius: 0.52em 0.52em 0 0;
+    max-width: 70em;
+    box-shadow: 0 0.2em 0.5em rgba(6, 84, 136, 0.479);
+    padding: 1em;
+}
+
+div#logo{
+    display: block;
+    padding: 1em;
+    margin: 0.2em;
+}
+
+nav#menu{  
+    align-items: center;
+    margin: 1em 0 0 0;  
+    max-width: 70em;
+}
+
+nav#menu ul{
+    display: block;
+    padding: 1em;
+    margin: 0.2em;
+    list-style: none;
+}
+
+nav#menu ul li a{  
+    text-decoration: none;
+    justify-content: space-between;
+    float: left;
+    text-transform: uppercase;
+    margin: 0.55em 0 0 0.6em ;
+    font: bold 1.3em arial;
+    color: #006bbe;
+}
+
+nav#menu ul li a:hover{
+    text-decoration: underline;
+}
+
+div.compras{
+    margin: 0.7em 0 0 auto;
+}
+
+input[type=search]{
+    border-radius: 1em;
+    border: none;
+    padding: 0.5em;
+}
+
+
